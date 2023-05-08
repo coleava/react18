@@ -47,6 +47,7 @@ import BlueTooth from './bluetooth';
 // }
 
 function App() {
+    console.log(111);
   return (
     <BlueTooth/>
     // <MainStage
