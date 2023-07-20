@@ -22,7 +22,7 @@ export default class Page3 extends React.Component {
       container: 'container',
       width: window.innerWidth,
       height: window.innerHeight,
-      // draggable: true,
+      draggable: true,
     })
     this.stage.container().style.cursor = 'crosshair'
     this.layer = new Konva.Layer()
@@ -40,12 +40,12 @@ export default class Page3 extends React.Component {
         width: 1000,
         height: 900,
       })
-      //   image.on('mousedown', () => {
-      //     this.stage.draggable(false)
-      //   })
-      //   image.on('mousedown', () => {
-      //     this.stage.draggable(true)
-      //   })
+        // image.on('mousedown', () => {
+        //   this.stage.draggable(false)
+        // })
+        // image.on('mousedown', () => {
+        //   this.stage.draggable(true)
+        // })
       // add the shape to the layer
       this.layer.add(this.shape)
     }

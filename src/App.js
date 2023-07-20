@@ -1,10 +1,14 @@
+import { OmitProps } from 'antd/es/transfer/ListBody'
 import './App.css'
 // import MainStage from './page/MainStage'
 // import Page1 from './page/page1'
 // import Page2 from './page/page2'
-// import Page3 from './page/page3'
+// import Page3 from './page/page3'  工位
 // import ReactFlv from './flv/react-flv';
-import BlueTooth from './bluetooth';
+// import BlueTooth from './bluetooth';
+// import FabricPage from './page/fabric'
+import QRCodeCom from './page/qrcode'
+
 // function App() {
 //   let [count, setCount] = useState(0)
 //   let [name, setName] = useState(null)
@@ -47,9 +51,11 @@ import BlueTooth from './bluetooth';
 // }
 
 function App() {
-    console.log(111);
   return (
-    <BlueTooth/>
+    <QRCodeCom/>
+    // <FabricPage/>
+    // <BlueTooth/>
+    // <Page3/>
     // <MainStage
     //   onSelectSeat={(seatId) => {
     //     console.log('selected - ' + seatId)
